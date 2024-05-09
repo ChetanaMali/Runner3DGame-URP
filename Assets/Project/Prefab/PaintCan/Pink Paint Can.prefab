@@ -130,7 +130,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d51efcfc202ed414099c9c4f4c09c590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canColorMat: {fileID: 2100000, guid: 41bb24c2ceccbbf4d9963482cd8828bf, type: 2}
+  canColorMat: {fileID: 2100000, guid: 72bb47245e3ac6b499bd1408799a0015, type: 2}
+  big: 0
+  small: 0
+  isscaledUp: 0
+  isPopup: 0
+  player: {fileID: 0}
 --- !u!65 &8595590249538953140
 BoxCollider:
   m_ObjectHideFlags: 0

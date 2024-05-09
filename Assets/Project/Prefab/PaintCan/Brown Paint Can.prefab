@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2589609452471469195}
   m_Layer: 0
-  m_Name: Yellow Paint Can
+  m_Name: Brown Paint Can
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,7 +96,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 294707d172e0cfe4ba9626699ae45b9b, type: 2}
-  - {fileID: 2100000, guid: 7b627cefa69a4b54a9dea04983a54e64, type: 2}
+  - {fileID: 2100000, guid: 3dad69a889ceb754481d7c44e52647df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -131,6 +131,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canColorMat: {fileID: 2100000, guid: 7b627cefa69a4b54a9dea04983a54e64, type: 2}
+  big: 0
+  small: 0
+  isscaledUp: 0
+  isPopup: 0
+  player: {fileID: 0}
 --- !u!65 &8595590249538953140
 BoxCollider:
   m_ObjectHideFlags: 0
